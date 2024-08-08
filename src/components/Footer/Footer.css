@@ -1,0 +1,110 @@
+.footerbox{
+    font-size:10px;
+    background-color: #313131;
+    color: white;
+    margin-top:10%;
+}
+.footer-container p{
+    font-weight:400;
+    font-size:14px;
+    margin-bottom:40px;
+    padding:0px 5px;
+}
+.footer-container{
+    display: flex;
+    justify-content:space-evenly;
+    padding:40px 0px;
+}
+.footer-container ul li{
+    list-style: none;
+    letter-spacing:1px;
+    line-height:50px;
+}
+.footer-container ul{
+    padding: 0px 10px;
+ }
+.col2{
+   position: relative;
+   text-align: center;
+}
+.col2::before{
+    content: '';
+    background-color:white;
+    width:2px;
+    height:220px;
+    position: absolute;
+    top:25%;
+    left:-30%;
+}
+.col2::after{
+    content: '';
+    background-color:white;
+    width:2px;
+    height:220px;
+    position: absolute;
+    left:130%;
+    top:25%;
+}
+.footerend{
+    margin-left:100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.footerend p{
+    line-height:20px;
+}
+
+@media screen and (max-width:900px){
+    .footerbox {
+        font-size:10px;
+        padding:0px 10px;
+    }
+    .footer-container p{
+      font-size:13px;
+    }
+    .col2::before{
+        content: '';
+        background-color:white;
+        width:2px;
+        height:180px;
+        position: absolute;
+        top:25%;
+        left:-2%;
+    }
+    .col2::after{
+        content: '';
+        background-color:white;
+        width:2px;
+        height:180px;
+        position: absolute;
+        left:100%;
+        top:25%;
+    }
+    .footerend{
+        margin-left:80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding:10px;
+    }
+    .footerend p{
+        line-height:15px;
+    }
+    } 
+    @media screen and (max-width:550px){
+    .footerbox {
+        padding:0px 6px;
+    }
+    .footer-container p{
+      font-size:10;
+    }
+    .footer-container ul li{
+        font-size:7px;
+        line-height:25px;
+    }
+    .footerend p{
+        font-size:7px;
+    }
+}

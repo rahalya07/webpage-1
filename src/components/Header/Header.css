@@ -1,0 +1,166 @@
+.Headersection{
+display:flex;
+align-items: center;
+gap:17px;
+margin-top:5%;
+padding:10px;
+}
+.header-title{
+    margin:40px 15px 0px 0px;
+    padding:5px;
+    width:45%;
+}
+.header-title .heading1{
+    font-size:45px;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+.header-title .heading2{
+    font-size:18px;
+    letter-spacing:32px;
+}
+.header-title .headercontent{
+    line-height:25px;
+    margin-top:40px;
+    font-size:12px;
+    letter-spacing:1px;
+}
+.applybtn{
+    width: 212px;
+    height: 37px;
+    border-radius: 0px 30px 0px 30px;
+    color: black;
+    background-color: rgb(177, 177, 177);
+    outline: none;
+    border: none;
+    font-size:15px;
+    cursor: pointer;
+    margin-left:75%;
+}
+.header-img{
+    width:45%;
+    position: relative;
+    height:450px;
+}
+.header-img .pg2{
+   z-index:-2;
+   width:300px;
+   left:30%;
+   top:25%;
+   height:250px;
+   position: absolute;
+}
+.header-img .pg1{
+    position: absolute;
+    z-index:2;
+    width:250px;
+    height:200px;
+}
+.header-img .pg3{
+    position: absolute;
+    z-index:2;
+    left:60%;
+    top:55%;
+    width:250px;
+    height:200px;
+}
+.header-img img{
+    border-radius:10%;
+}
+@media screen and (max-width:550px){
+    .header-title{
+        width:100%;
+        margin:0px 30px;
+    }
+    .header-title .heading1{
+        font-size:25px;
+        padding:0px 10px ;
+        font-weight:400;
+    }
+    .header-title .heading2{
+        font-size:10px;
+        padding:0px 10px ;
+        letter-spacing:12px;
+    }
+    .header-title .headercontent{
+        line-height:20px;
+        margin-top:40px;
+        padding:0px 10px;
+        font-size:5px;
+        width:85%;
+        text-align: justify;
+    }
+    .applybtn{
+        width: 100px;
+        height: 17px;
+        font-size:10px;
+    }
+    .Headersection{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        } 
+        .header-img{
+            position: relative;
+            height:450px;
+            width:60%;
+            height:450px;
+        }
+        .header-img .pg2{
+           z-index:-2;
+           width:170px;
+           height:150px;
+        }
+        .header-img .pg1{
+            width:170px;
+            height:150px;
+        }
+        .header-img .pg3{
+            width:150px;
+            height:150px;
+        }
+    }
+    @media screen and (max-width:1200px){
+        .header-title{
+            margin:0px 30px;
+        }
+        .header-title .heading1{
+            font-size:25px;
+            padding:0px 10px ;
+            font-weight:400;
+        }
+        .header-title .heading2{
+            font-size:10px;
+            padding:0px 10px ;
+            letter-spacing:15px;
+        }
+        .header-title .headercontent{
+            line-height:25px;
+            margin-top:40px;
+            padding:0px 10px;
+            font-size:10px;
+            text-align: justify;
+        }
+        .applybtn{
+            width: 100px;
+            height: 17px;
+            font-size:10px;
+        }
+            .header-img{
+                height:450px;
+                height:450px;
+            }
+            .header-img .pg2{
+               z-index:-2;
+               width:170px;
+               height:150px;
+            }
+            .header-img .pg1{
+                width:170px;
+                height:150px;
+            }
+            .header-img .pg3{
+                width:150px;
+                height:150px;
+            }
+        }
